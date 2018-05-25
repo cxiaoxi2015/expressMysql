@@ -1,0 +1,37 @@
+/**
+ * @description: 主样式文件
+ * @author: xx
+ * @date: 2018/3/16 14:19
+ */
+
+html,body{
+  width:100%;
+  height:100%;
+  margin:0;
+  padding:0;
+}
+div,p,table,h1,h2,h3,h4,h5,h6,ul,li,ol,dl,dt,dd,input{
+  margin:0;
+  padding:0;
+  text-decoration:none;
+  list-style:none;
+  color:#333;
+  font-size:14px;
+  outline:none;
+}
+.pull-left{
+  float:left
+}
+.pull-right{
+  float:right
+}
+.clear-float{
+  zoom:1;
+  &:after{
+    display:block;
+    clear:both;
+    content:'';
+    visibility:hidden;
+    height:0
+  }
+}
